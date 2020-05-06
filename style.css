@@ -33,6 +33,7 @@ body {
 
 .tabs .tab {
     display: none;
+    width: 100%;
     order: 99;
     flex-grow: 1;
     background: white;
