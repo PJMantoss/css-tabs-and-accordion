@@ -29,4 +29,31 @@ body {
     cursor: pointer;
 }
 
-.tabs .tab {}
+.tabs .tab {
+    display: block;
+    order: 99;
+    flex-grow: 1;
+    background: white;
+    padding: 16px;
+}
+
+.tabs input {
+    display: none;
+}
+
+.tabs input:checked + label {
+    background: white;
+}
+
+.tabs input:checked + label + .tab {
+    display: block;
+}
+
+@media (max-width: 770px){
+    .tabs label,
+    .tabs .tab {
+        order: initial;
+    }
+
+    .tabs input:checked
+}
