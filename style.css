@@ -20,9 +20,10 @@ body {
 }
 
 .tabs label {
-    display: none;
+    display: block;
     order: 1;
     background: cyan;
+    font-weight: bold;
     padding: 16px 32px;
     margin-right: 4px;
     transition: background ease .0.2s;
@@ -30,7 +31,7 @@ body {
 }
 
 .tabs .tab {
-    display: block;
+    display: none;
     order: 99;
     flex-grow: 1;
     background: white;
@@ -55,5 +56,9 @@ body {
         order: initial;
     }
 
-    .tabs input:checked
+    .tabs label {
+        width: 100%;
+        margin: 0 4px 0 0;
+
+    }
 }
