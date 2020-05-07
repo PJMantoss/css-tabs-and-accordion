@@ -41,6 +41,19 @@ body {
     padding: 16px;
 }
 
+.circle {
+    position: relative;
+    overflow: hidden;
+}
+
+.circle.circle1 {
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 50%;
+    margin: 20px;
+}
+
 .tabs input {
     display: none;
 }
