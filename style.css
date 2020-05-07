@@ -119,7 +119,30 @@ body {
 
     p {
         font-size: 14px;
-        text-align: justify;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px){
+    .circle.circle1 {
+        width: 300px;
+        height: 300px;
+        float: none;
+        margin: 12px;
+    }
+
+    .circle.circle2 {
+        width: 180px;
+        height: 180px;
+        float: none;
+        margin: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
     }
 }
 
