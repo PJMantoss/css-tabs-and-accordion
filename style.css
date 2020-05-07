@@ -126,14 +126,14 @@ body {
     .circle.circle1 {
         width: 300px;
         height: 300px;
-        float: none;
+        float: left;
         margin: 12px;
     }
 
     .circle.circle2 {
         width: 180px;
         height: 180px;
-        float: none;
+        float: right;
         margin: 12px;
     }
 
