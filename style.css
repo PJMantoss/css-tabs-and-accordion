@@ -10,6 +10,15 @@ a {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 17px;
+    text-align: justify;
+}
+
 body {
     background-color: silver;
     box-sizing: border-box;
@@ -98,10 +107,19 @@ body {
     }
 
     .circle.circle2 {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
         float: none;
         margin: 10px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: justify;
     }
 }
 
