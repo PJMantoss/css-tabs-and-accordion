@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+a {
+    color: red;
+    font-weight: bold;
+}
+
 body {
     background-color: silver;
     box-sizing: border-box;
