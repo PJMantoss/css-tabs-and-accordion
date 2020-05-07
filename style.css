@@ -10,7 +10,7 @@ a {
     font-weight: bold;
 }
 
-h1 {
+h2 {
     font-size: 30px;
 }
 
@@ -113,7 +113,7 @@ body {
         margin: 10px;
     }
 
-    h1 {
+    h2 {
         font-size: 18px;
     }
 
@@ -137,7 +137,7 @@ body {
         margin: 12px;
     }
 
-    h1 {
+    h2 {
         font-size: 20px;
     }
 
