@@ -89,6 +89,22 @@ body {
     shape-outside: circle();
 }
 
+@media (max-width: 600px){
+    .circle.circle1 {
+        width: 200px;
+        height: 200px;
+        float: none;
+        margin: 10px;
+    }
+
+    .circle.circle2 {
+        width: 120px;
+        height: 120px;
+        float: none;
+        margin: 10px;
+    }
+}
+
 .tabs input {
     display: none;
 }
