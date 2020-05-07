@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Lilita+One&family=Sarabun&family=ZCOOL+XiaoWei&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,15 +20,18 @@ a {
 }
 
 .page-title h1 {
+    font-family: 'Amaranth', sans-serif;
     font-size: 35px;
     color: white;
 }
 
 h2 {
+    font-family: 'Amaranth', sans-serif;
     font-size: 30px;
 }
 
 p {
+    font-family: 'Sarabun', sans-serif;
     font-size: 17px;
     text-align: justify;
 }
