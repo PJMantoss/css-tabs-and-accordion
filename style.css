@@ -32,7 +32,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
 
 .tabs label {
