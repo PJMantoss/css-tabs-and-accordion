@@ -8,7 +8,7 @@
 }
 
 a {
-    color: red;
+    color: rgb(156, 4, 156);
     font-weight: bold;
 }
 
@@ -21,7 +21,7 @@ a {
 }
 
 .page-title h1 {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Sarabun', sans-serif;
     font-size: 35px;
     color: white;
 }
@@ -201,6 +201,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+}
+
+#love a {
+    color: cyan;
 }
 
 #love > span {
