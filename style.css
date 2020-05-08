@@ -14,6 +14,7 @@ a {
 
 .page-title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 8px 0 15px 0;
@@ -22,6 +23,10 @@ a {
 .page-title h1 {
     font-family: 'Amaranth', sans-serif;
     font-size: 35px;
+    color: white;
+}
+
+.page-title p {
     color: white;
 }
 
